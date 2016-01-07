@@ -1,4 +1,23 @@
+/* Typography */
 .navbar-text {
   font-weight: bold;
   margin-right: 0;
+}
+
+/* Logos & Icons */
+.main-logo {
+  width: 124px;
+  height: 34px;
+  margin-top: 22px;
+  text-indent: 100%;
+  white-space: nowrap;
+  background-image: url("../img/main-logo.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+}
+
+/* Layout */
+body {
+  padding-top: 80px;
 }
