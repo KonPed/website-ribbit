@@ -18,6 +18,16 @@
 }
 
 /* Layout */
-body {
-  padding-top: 80px;
+
+.jumbotron {
+  background-image: url("../img/main-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 80px;
+  background-attachment: fixed;
+  padding: 100px 0;
+}
+
+.hero-img {
+  
 }
