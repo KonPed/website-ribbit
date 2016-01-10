@@ -55,12 +55,50 @@ p {
 }
 
 .ft-icon {
-  width: 100%;
+  max-width: 345px;
   height: 196px;
   position: relative;
   background: #8c73b0 url("../img/main-bg.png") no-repeat;
   background-size: 91%;
   background-position: 187px top;
+}
+
+.ft-icon::before {
+  content: "";
+  position: absolute;
+  width: 164px;
+  height: 102px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background: url("../img/feature-icons.png") no-repeat;
+  background-size: 100%;
+  z-index: 1;
+}
+
+.ft-icon::after {
+  content: "";
+  position: absolute;
+  width: 187px;
+  height: 187px;
+  background-color: #d5c1f2;
+  border-radius: 50%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  box-shadow: 0 0 10px 2px #555 inset, 0 0 5px 1px #333 inset;
+}
+
+.friends::before {
+  background-position: 0px -105px;
+}
+
+.cloud::before {
+  background-position: 0px -210px;
 }
 
 .ft-icon.friends {
@@ -106,6 +144,14 @@ p {
   background-image: url("../img/device-hero.png");
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.ft {
+  margin-bottom: 72px;
+}
+
+.ft-text {
+  padding: 1.5em 1em 0;
 }
 
 /* Media Queries */
