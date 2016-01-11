@@ -81,8 +81,8 @@ p {
 .ft-icon::after {
   content: "";
   position: absolute;
-  width: 187px;
-  height: 187px;
+  width: 195px;
+  height: 195px;
   background-color: #d5c1f2;
   border-radius: 50%;
   top: 0;
@@ -147,11 +147,39 @@ p {
 }
 
 .ft {
-  margin-bottom: 72px;
+  margin-bottom: 5.142em;
 }
 
 .ft-text {
   padding: 1.5em 1em 0;
+}
+
+.panel {
+  border-bottom: 1px solid #eee;
+  padding: 3em 0;
+  margin: 5.71em 0 9.42em 0;
+  background-image: url("../img/form-panel-bg.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100%;
+}
+
+/* Form */
+
+.phone-txt {
+  width: 90%;
+  padding: 1.71em 0.85em;
+  margin-left: 14px;
+}
+
+.btn-submit {
+  color: inherit;
+  font-size: 1.6em;
+  position: absolute;
+  background-color: transparent;
+  bottom: 1px;
+  right: 75px;
+  z-index: 100;
 }
 
 /* Media Queries */
@@ -169,6 +197,22 @@ p {
 
   .jumbotron p {
     font-size: 1.4em;
+  }
+
+  .ft {
+    margin-bottom: 2.285em;
+  }
+
+  .ft-text {
+    padding-top: 0.857em;
+  }
+
+  .phone-txt {
+    margin-left: 0;
+  }
+
+  .btn-submit {
+    right: 100px;
   }
 }
 
@@ -203,5 +247,34 @@ p {
 
   .lead:nth-of-type(2) {
     margin-bottom: 40px;
+  }
+
+  .send-data {
+    text-align: center;
+  }
+
+  .send-data p {
+    margin-top: 15px;
+  }
+
+  .panel {
+    padding: 1em 1em;
+  }
+
+  form label {
+    margin: 15px 0;
+  }
+
+  .phone-txt {
+    margin: 20px auto;
+    width: auto;
+  }
+
+  .btn-submit {
+    display: block;
+    position: static;
+    background-color: rgb(211, 211, 211);
+    width: 190px;
+    margin: 0 auto;
   }
 }
