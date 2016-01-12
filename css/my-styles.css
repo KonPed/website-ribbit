@@ -227,6 +227,12 @@ hr {
   z-index: 100;
 }
 
+/* Modal */
+
+.modal-body {
+  text-align: center;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 991px) {
