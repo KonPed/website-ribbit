@@ -133,6 +133,13 @@ p {
   color: #957bba;
 }
 
+.btn-success {
+  box-shadow: 3px 3px 5px #23812f;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  font-size: 1.5em;
+  padding: 0.8em 0.7em;
+}
+
 /* Layout */
 
 hr {
@@ -186,16 +193,26 @@ hr {
 }
 
 .col-2 p {
-  /*line-height: 1.4;*/
-  /*letter-spacing: 0.3px;*/
   margin: 0;
   padding-bottom: 5px;
+}
+
+.callout {
+  padding: 2.5em 0;
+  margin-top: 64px;
+  text-align: center;
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.callout .glyphicon {
+  margin-left: 10px;
+  top: 2px;
 }
 
 /* Form */
 
 .phone-txt {
-  width: 90%;
   padding: 1.71em 0.85em;
   margin-left: 14px;
 }
@@ -204,9 +221,9 @@ hr {
   color: inherit;
   font-size: 1.6em;
   position: absolute;
-  background-color: transparent;
+  background-color: #dcdfe1;
   bottom: 1px;
-  right: 85px;
+  right: 88px;
   z-index: 100;
 }
 
@@ -244,7 +261,7 @@ hr {
   }
 
   .btn-submit {
-    right: 100px;
+    right: 102px;
   }
 }
 
@@ -317,6 +334,10 @@ hr {
     background-color: rgb(211, 211, 211);
     width: 190px;
     margin: 0 auto;
+  }
+
+  .btn-success {
+    font-size: 1.1em;
   }
 }
 
