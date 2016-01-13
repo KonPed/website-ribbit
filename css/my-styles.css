@@ -222,7 +222,7 @@ hr {
 }
 
 .main-footer {
-  margin: 7.142em 0 5.714em 0;
+  margin: 5.142em 0 5.714em 0;
 }
 
 .copyright {
@@ -237,6 +237,18 @@ hr {
   padding: 0;
   margin: 0;
   line-height: 1.8;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+}
+
+.footer-content {
+  max-width: 600px;
+  padding: 1.5em 1em;
+  margin: 0 auto 50px;
+  text-align: center;
+  font-size: 1.3em;
 }
 
 /* Form */
@@ -342,6 +354,10 @@ hr {
     margin-bottom: 40px;
   }
 
+  .icon-section {
+    margin: 0 auto;
+  }
+
   .send-data {
     text-align: center;
   }
@@ -363,6 +379,10 @@ hr {
     width: auto;
   }
 
+  #th-copy {
+    padding-top: 2.3em;
+  }
+
   .btn-submit {
     display: block;
     position: static;
@@ -375,6 +395,25 @@ hr {
     font-size: 1.1em;
   }
 
+  .th-content-img {
+    max-width: 300px;
+    margin: 0 auto 40px;
+  }
+
+  .th-desc {
+    padding: 1em;
+    text-align: center;
+  }
+
+  .ben-photo {
+    max-width: 200px;
+    margin: 15px auto 25px;
+  }
+
+  .teacher-desc {
+    text-align: center;
+  }
+
   .col-2 {
     margin-top: 3em;
   }
@@ -385,11 +424,24 @@ hr {
 
   .link-list {
     margin: 2.285em auto 0;
-    width: 150px;
   }
 
   .main-footer {
-    margin-top: 4.571em;
+    margin-top: 3.571em;
+  }
+
+  .footer-logo {
+    width: 155px;
+  }
+
+  .footer-content {
+    font-size: 1.1em;
+    padding: 1em;
+    margin-bottom: 0px;
+  }
+
+  .for-small {
+    text-align: center;
   }
 
 }
