@@ -1,7 +1,6 @@
 $(document).ready(function() {
 
   var url = $("#videoModal iframe").attr("src");
-  console.log(url);
 
   $("#trig").on("click", function() {
     $("#videoModal iframe").attr("src", url + "?rel=0&amp;autoplay=1");
@@ -18,4 +17,5 @@ $(document).ready(function() {
   function ClearSrc() {
     $('#videoModal iframe').attr('src','');
   }
+
 })

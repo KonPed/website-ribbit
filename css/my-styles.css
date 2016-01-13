@@ -113,7 +113,18 @@ p {
 
 .th-logo {
   width: 155px;
-  margin: -0.75em 0 0.95em 0;
+  margin: -0.60em 0 0.95em 0;
+}
+
+/* Links */
+
+.main-footer a {
+  color: #a6afb2;
+}
+
+.heading {
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 /* Buttons */
@@ -208,6 +219,24 @@ hr {
 .callout .glyphicon {
   margin-left: 10px;
   top: 2px;
+}
+
+.main-footer {
+  margin: 7.142em 0 5.714em 0;
+}
+
+.copyright {
+  padding: 3em 0;
+  text-align: center;
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+
+.link-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  line-height: 1.8;
 }
 
 /* Form */
@@ -345,6 +374,24 @@ hr {
   .btn-success {
     font-size: 1.1em;
   }
+
+  .col-2 {
+    margin-top: 3em;
+  }
+
+  .callout {
+    margin-top: 2.285em;
+  }
+
+  .link-list {
+    margin: 2.285em auto 0;
+    width: 150px;
+  }
+
+  .main-footer {
+    margin-top: 4.571em;
+  }
+
 }
 
 @font-face {
