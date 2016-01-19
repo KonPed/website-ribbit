@@ -15,19 +15,14 @@ Ribbit is fully responsive and can adjust on any device and screen.
 * A panel for the form component
 * A modal window that is linked to the rectangular image.
 
-### Screenshots
-
 ##### screenshot 1
-![screenshot1](https://github.com/KonPed/website-ribbit/screenshots/ribbit1.png?raw=true "Screen1")
+![screenshot1](https://github.com/KonPed/website-ribbit/blob/master/screenshots/ribbit1.png?raw=true "Screen1")
 ##### screenshot 2
-![screenshot2](https://github.com/KonPed/website-ribbit/screenshots/ribbit2.png?raw=true "Screen2")
+![screenshot2](https://github.com/KonPed/website-ribbit/blob/master/screenshots/ribbit2.png?raw=true "Screen2")
 ##### screenshot 3
-![screenshot3](https://github.com/KonPed/website-ribbit/screenshots/ribbit3.png?raw=true "Screen3")
+![screenshot3](https://github.com/KonPed/website-ribbit/blob/master/screenshots/ribbit3.png?raw=true "Screen3")
 ##### screenshot 4
-![screenshot4](https://github.com/KonPed/website-ribbit/screenshots/ribbit4.png?raw=true "Screen4")
+![screenshot4](https://github.com/KonPed/website-ribbit/blob/master/screenshots/ribbit4.png?raw=true "Screen4")
 
 Developed by [Konstantinos Paidarakis](https://github.com/KonPed)
-
-
-
 
